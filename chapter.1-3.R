@@ -291,6 +291,74 @@ usethis::create_from_github("https://github.com/ryandobson/myrepo.git",
 #idea without jeopardizing the state of the main project. 
 
 #To create a new branch use "Git Branch" 
+#You do this on GitHub 
+#After you create a new branch you can commit to it per usual 
+
+#If you need to switch branches but the work is not complete? 
+#Safeguard the current work with a temporary commit. 
+#Use "WIP" Work in Progress - to note that the commit is primarily to save the
+#document but is not a true update to the project. 
+#If you do this when you come back you can set the commit back to the previous 
+#state. 
+#Having a git client can really help with this process. 
+
+
+#After you have done your work in the branch and committed it there. 
+#You can switch back to the main and merge the new branch. 
+
+#Occasionally you will get merge conflicts. 
+#These can usually be pretty easily resolved. You usually just have to go in 
+#and edit a small bit of code to the version you want and then finish it. 
+
+#More Info on Branching and Merges 
+#https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+
+#Remotes 
+#Remote repositories of your project that are hosted on the internet or another
+#network. You can pull and push changes from the remotes. 
+
+#Strong convention to use "Origin" as the nickname of your main remote. 
+
+#A common reason to add a second remote is when you have done a "fork and 
+#clone." You will still want to pull from the original 
+#Name the new one "upstream" 
+
+
+#It is typical to use the first 7 characters of the 40 string of characters to 
+#identify a specific commit. 
+
+
+#Useful Git Patterns for a productive Workflow 
+#https://happygitwithr.com/workflows-intro.html
+
+
+#The Repeated Amend 
+#Use a Git commit like a protective measure when in uncertain or dangerous 
+#territory. 
+#You don't want to commit too often because you will just make a mess of things. 
+#But, if you are going to do something that might not work, make a commit. 
+
+
+#When doing something tricky you usually proceed toward the goal in small 
+#increments. Checking that each thing works along the way. 
+#Yes, it works? Make a commit. 
+#This can lead to a lot of tiny commits, which is fine at times. 
+
+
+#The * on a commit means that exists only in your local repo and is not
+#yet on GitHub. 
+#If you are doing WIP commits, you don't need to push them to GitHub. 
+
+
+#It is better for the health of a project to push and integrate more often 
+
+
+#Disaster Recovery
+#https://happygitwithr.com/burn.html
+
+
+
 
 
 
