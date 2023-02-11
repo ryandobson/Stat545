@@ -248,5 +248,56 @@ usethis::create_from_github("https://github.com/ryandobson/myrepo.git",
 )
 #I don't need to specify a folder because my working directory is already set 
 #where I want it 
+#Just use buttons to do this. Probably unnecessary to code this part
+#It is a one time setup for each project. 
+
+
+#New and Existing Projects Do This: 
+#Dedicate a local directory or folder to it 
+#Make it an RStudio Project. 
+#Make it a Git repository 
+
+#Your workflow doesn't change much with Git 
+#Instead of just saving individual files, you commit's occasionally 
+#A commit takes a snapshot of all the files in the entire project 
+#Pushing your commits to GitHub is like sharing all of your files with 
+#the team. It is effectively updating the team. 
+
+
+#Consider Version A of a file and then modified Version B. 
+#Version A was the first commit and Version B was the second commit 
+#The set of differences between A and B is called a "Diff" 
+
+#By looking at diffs, its easy to see how two snapshots differ. 
+
+#Every time you make a commit you must write a short commite message
+#The commit message should convey the motivation for the change 
+
+#When you revisit a project after a break or need to digest changes made 
+#by a colleague, looking at history, by reading commit messages and skimming 
+#diffs is a great way to catch up. 
+
+#Git Commands 
+#https://happygitwithr.com/git-commands.html
+
+
+#BRANCHES 
+
+#You take a detour from the main stream of development and do work without 
+#changing the main stream. 
+#Allows people to work in parallel without overwriting each other's work! 
+
+#Also allows someone working solo to work incrementally on an experimental 
+#idea without jeopardizing the state of the main project. 
+
+#To create a new branch use "Git Branch" 
+
+
+
+
+
+
+
+
 
 
