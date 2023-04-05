@@ -20,7 +20,7 @@ getwd()
 library(gapminder)
 
 
-#"str" displays the strucutre of an object. 
+#"str" displays the structure of an object. 
 #Use this to get a quick idea of what you are working with. 
 str(gapminder)
 
